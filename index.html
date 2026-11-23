@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AASHRIDES - Taxi & Travel Agency</title>
+  <title>Saffar on Wheels - Taxi &amp; Travel Agency</title>
   <link rel="icon" type="image/png" href="logo.png">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&amp;family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
@@ -35,7 +35,6 @@
       line-height: 1.6;
     }
 
-    /* Header */
     .header {
       background: var(--brand-navy);
       position: sticky;
@@ -60,7 +59,6 @@
       text-decoration: none;
     }
 
-    /* Logo ko bada rakhta hai aur gol crop nahi karta */
     .nav-logo-img {
       width: 72px;
       height: 72px;
@@ -96,7 +94,6 @@
       color: var(--brand-navy);
     }
 
-    /* Agency banner */
     .brand-hero-header {
       background: #ffffff;
       padding: 30px 15px 25px;
@@ -117,7 +114,6 @@
       border-bottom: 3px solid var(--brand-gold);
     }
 
-    /* Badges */
     .badges-row {
       max-width: 900px;
       margin: 25px auto 0;
@@ -157,7 +153,6 @@
       letter-spacing: 0.5px;
     }
 
-    /* Main section */
     .main-section {
       background:
         linear-gradient(rgba(13, 34, 56, 0.94), rgba(13, 34, 56, 0.94)),
@@ -181,7 +176,6 @@
       box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     }
 
-    /* Booking form and meter */
     .mode-tabs {
       display: flex;
       gap: 10px;
@@ -270,7 +264,6 @@
     .btn-stop { background: var(--danger); color: #fff; display: none; }
     .btn-nav { background: var(--nav-blue); color: #fff; }
 
-    /* Map box */
     .meter-dashboard {
       background: var(--brand-navy);
       color: #fff;
@@ -310,7 +303,6 @@
       color: #064e3b;
     }
 
-    /* Rates and footer */
     .section {
       max-width: 1200px;
       margin: auto;
@@ -351,7 +343,6 @@
       font-size: 13px;
     }
 
-    /* WhatsApp button */
     .floating-wa {
       position: fixed;
       bottom: 20px;
@@ -373,9 +364,7 @@
       transition: transform 0.3s ease;
     }
 
-    .floating-wa:hover {
-      transform: scale(1.1);
-    }
+    .floating-wa:hover { transform: scale(1.1); }
 
     @media (max-width: 900px) {
       .main-grid { grid-template-columns: 1fr; }
@@ -399,14 +388,13 @@
 </head>
 <body>
 
-  <!-- Header -->
   <header class="header">
     <div class="nav-container">
       <a href="#" class="logo-box">
-        <img src="logo.png" alt="Aashrides logo" class="nav-logo-img">
+        <img src="logo.png" alt="Saffar on Wheels logo" class="nav-logo-img">
         <div>
           <div class="brand-title">
-            <span class="w-white">AASH</span><span class="w-gold">RIDES</span>
+            <span class="w-white">SAFFAR</span><span class="w-gold"> ON WHEELS</span>
           </div>
           <div class="brand-sub">TRAVEL BEYOND BOUNDARIES</div>
         </div>
@@ -417,7 +405,6 @@
     </div>
   </header>
 
-  <!-- Agency banner -->
   <section class="brand-hero-header">
     <div>
       <span class="ribbon-agency">— TAXI &amp; TRAVEL AGENCY —</span>
@@ -443,11 +430,8 @@
     </div>
   </section>
 
-  <!-- Booking and GPS section -->
   <section class="main-section">
     <div class="main-grid">
-
-      <!-- Booking form -->
       <div class="card">
         <div class="mode-tabs">
           <button class="tab-btn active" id="tabCustomer" onclick="switchMode('customer')">
@@ -511,7 +495,6 @@
           </form>
         </div>
 
-        <!-- Driver mode -->
         <div id="driverSection" style="display:none;">
           <p style="font-size:12px; color:var(--text-muted); margin-bottom:10px;">
             Trip start karte hi live GPS route map par draw hona shuru ho jayega.
@@ -537,7 +520,6 @@
         </div>
       </div>
 
-      <!-- GPS meter -->
       <div class="card">
         <div class="meter-dashboard">
           <div>
@@ -551,11 +533,9 @@
         </div>
         <div id="map"></div>
       </div>
-
     </div>
   </section>
 
-  <!-- Rates -->
   <section class="section">
     <div class="section-header">
       <h2>Affordable Per-KM Rates</h2>
@@ -579,10 +559,9 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div style="font-family:'Montserrat'; font-size:20px; font-weight:900; margin-bottom:5px;">
-      <span style="color:#fff;">AASH</span><span style="color:var(--brand-gold);">RIDES</span>
+      <span style="color:#fff;">SAFFAR</span><span style="color:var(--brand-gold);"> ON WHEELS</span>
     </div>
     <p style="color:#cbd5e1; margin-bottom:12px;">
       TRAVEL BEYOND BOUNDARIES — TAXI &amp; TRAVEL AGENCY
@@ -593,17 +572,15 @@
       ✉️ <a href="mailto:aashrides@gmail.com" style="color:#fff; text-decoration:none;">aashrides@gmail.com</a>
     </p>
     <p style="font-size:11px; color:#64748b; margin-top:15px;">
-      © 2025 AASHRIDES. All Rights Reserved.
+      © 2025 Saffar on Wheels. All Rights Reserved.
     </p>
   </footer>
 
-  <!-- WhatsApp button -->
   <button onclick="shareOnWhatsApp()" class="floating-wa" title="Share / Contact on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </button>
 
-  <!-- Google Maps API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places,geometry&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&amp;libraries=places,geometry&amp;callback=initMap" async defer></script>
 
   <script>
     const AGENCY_PHONE = "919311279707";
@@ -617,7 +594,7 @@
     let wakeLock = null;
 
     function shareOnWhatsApp() {
-      const promoMsg = `🚖 *Aashrides – Your Trusted Travel Partner*
+      const promoMsg = `🚖 *Saffar on Wheels – Your Trusted Travel Partner*
 
 Delhi/NCR se India ke kisi bhi destination ke liye comfortable, safe & reliable taxi booking. 🇮🇳
 
@@ -626,11 +603,11 @@ Delhi/NCR se India ke kisi bhi destination ke liye comfortable, safe & reliable 
 💰 Transparent & Competitive Fare
 🛣️ One Way & Round Trip
 
-👉 Apni taxi book karne ke liye Aashrides par visit karein.
+👉 Apni taxi book karne ke liye Saffar on Wheels par visit karein.
 📞 9311279707
 📧 aashrides@gmail.com
 
-*Aashrides – Travel Beyond Boundaries.* ✨`;
+*Saffar on Wheels – Travel Beyond Boundaries.* ✨`;
 
       window.open(
         `https://api.whatsapp.com/send?phone=${AGENCY_PHONE}&text=${encodeURIComponent(promoMsg)}`,
@@ -705,7 +682,7 @@ Delhi/NCR se India ke kisi bhi destination ke liye comfortable, safe & reliable 
           wakeLock = await navigator.wakeLock.request('screen');
         }
       } catch (error) {
-        // Wake lock is optional; ride tracking can continue without it.
+        // Wake lock is optional.
       }
     }
 
@@ -819,7 +796,7 @@ Delhi/NCR se India ke kisi bhi destination ke liye comfortable, safe & reliable 
       const { rate, km, total } = calculateLiveFare();
       const bookingId = "AR-" + Math.floor(1000 + Math.random() * 9000);
 
-      const message = `🚖 *AASHRIDES - NEW BOOKING REQUEST* 🚖
+      const message = `🚖 *SAFFAR ON WHEELS - NEW BOOKING REQUEST* 🚖
 
 🆔 *Booking ID:* ${bookingId}
 👤 *Name:* ${name}
@@ -832,7 +809,7 @@ Delhi/NCR se India ke kisi bhi destination ke liye comfortable, safe & reliable 
 🛣️ *Est. Distance:* ${km} KM
 💰 *Est. Fare:* ₹${total.toLocaleString("en-IN")}
 
-Thank you for choosing *AASHRIDES*! 🚕✨`;
+Thank you for choosing *Saffar on Wheels*! 🚕✨`;
 
       window.open(
         `https://api.whatsapp.com/send?phone=${AGENCY_PHONE}&text=${encodeURIComponent(message)}`,
